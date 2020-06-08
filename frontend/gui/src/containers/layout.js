@@ -1,9 +1,9 @@
-import React,{Co} from 'react';
+import React,{Component} from 'react';
 import { Layout, Menu, Breadcrumb } from 'antd';
 import { Link, withRouter } from 'react-router-dom';
 const { Header, Content, Footer } = Layout;
 
-class CustomLayout extends React.Component {
+class CustomLayout extends Component {
     render() {
         return (
             <Layout className="layout">
